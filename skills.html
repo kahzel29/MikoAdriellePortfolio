@@ -1,0 +1,97 @@
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* PAGE LAYOUT */
+#skills {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+/* SECTION TITLE */
+#skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* CAREER OBJECTIVE */
+.objective {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    background: rgba(255,255,255,0.6);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* SKILLS GRID */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* SKILL CARDS */
+.skill-card {
+    width: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2 class="logo">MyAcademicPortfolio</h2>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Me</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="quizzes.html">Quizzes</a></li>
+<li><a href="calculator.html">Calculator</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<!-- 🎯 CAREER OBJECTIVE SECTION -->
+<div class="objective">
+    <h3>Career Objective</h3>
+    <p>
+        I aim to become a professional Web Developer who creates modern, responsive, and user-friendly websites.
+        I am passionate about improving my programming skills in HTML, CSS, and JavaScript while building real-world projects that enhance user experience and solve problems.
+    </p>
+</div>
+
+<!-- 💻 SKILLS -->
+<div class="skills-container">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
